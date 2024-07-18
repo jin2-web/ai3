@@ -47,6 +47,7 @@
 
 s = int(input('시작 : '))
 e = int(input('끝 : '))
-for i in range(s,e+1) :
+for i in range(s,e+1)  :
     if i%2!=0 and i%3 !=0 and i%5 != 0 and i%7 != 0 :
         print(i,end=' ')
+        print("git study") 
